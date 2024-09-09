@@ -1,0 +1,3 @@
+load SimulatedStock.mat;
+candle(TMW(end-21:end,:),'m');
+title('Candlestick chart for TMW')
